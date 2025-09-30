@@ -41,3 +41,29 @@ Repositories and commit counts for 'Aayush-Gandhi':
 # HW03
 # HW03a
 # HW03a
+
+
+
+## Usage
+
+Run the interactive demo:
+
+```bash
+python demo.py
+
+
+
+
+
+---
+
+## 🔹 3. Add Testing Instructions
+Also add:
+
+```markdown
+## Running Tests
+
+To run the unit tests:
+
+```bash
+pytest -v
