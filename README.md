@@ -21,15 +21,21 @@ Install dependencies:
 ```bash
 pip install -r requirements.txt
 
-GitHub Repo Commit Counter
-===========================
+## Usage
 
-Repositories and commit counts for 'Aayush-Gandhi':
+### Running the Demo
+To run the interactive demo which shows repository information for a GitHub user:
+```bash
+python demo.py
+```
 
+Example output for user 'Aayush-Gandhi':
+```
+Repositories and commit counts:
 - Fashion-Era: 2 commits
 - First-Spline-3D: 3 commits
 - HRMS: 2 commits
-- HW03 Number of commits: 14 commits
+- HW03: 14 commits
 - Kosol-Clone-Project-: 33 commits
 - Magni-Era: 3 commits
 - MedVision: 2 commits
@@ -37,33 +43,21 @@ Repositories and commit counts for 'Aayush-Gandhi':
 - NFT-Dashboard: 10 commits
 - Shopping-Cart: 4 commits
 - SSW-567: 5 commits
+```
 
-# HW03
-# HW03a
-# HW03a
-
-
-
-## Usage
-
-Run the interactive demo:
-
+### Running Tests
+To run the unit tests with coverage report:
 ```bash
-python demo.py
+PYTHONPATH=$PYTHONPATH:./src pytest test.py -v --cov=src
+```
 
+## Function Documentation
 
+### `get_user_repos_and_commits(user_id)`
+Returns a list of tuples containing repository names and their commit counts for a given GitHub user.
 
+Parameters:
+- `user_id` (str): GitHub username
 
-
----
-
-## 🔹 3. Add Testing Instructions
-Also add:
-
-```markdown
-## Running Tests
-
-To run the unit tests:
-
-```bash
-pytest -v
+Returns:
+- List of tuples (repo_name, commit_count)
