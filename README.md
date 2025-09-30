@@ -1,4 +1,4 @@
-# HW03a - GitHub API Repository Info
+# HW04c_Mocking - GitHub API Repository Info
 
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/Aayush-Gandhi/HW03a/tree/HW04c_Mocking.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/Aayush-Gandhi/HW03a/tree/HW04c_Mocking)
 
