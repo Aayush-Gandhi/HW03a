@@ -61,3 +61,10 @@ Parameters:
 
 Returns:
 - List of tuples (repo_name, commit_count)
+
+
+
+## Running Tests
+Run the tests (with mocks, no real API calls):
+```bash
+pytest -v
