@@ -1,4 +1,4 @@
-# HW03 - GitHub API Repository Info
+# HW03a - GitHub API Repository Info
 
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/Aayush-Gandhi/HW03/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/Aayush-Gandhi/HW03/tree/main)
 
