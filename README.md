@@ -1,6 +1,6 @@
 # HW03a - GitHub API Repository Info
 
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/Aayush-Gandhi/HW03/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/Aayush-Gandhi/HW03/tree/main)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/Aayush-Gandhi/HW03a/tree/HW04c_Mocking.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/Aayush-Gandhi/HW03a/tree/HW04c_Mocking)
 
 ## Overview
 This project queries the GitHub API to retrieve a list of repositories for a given user and the number of commits in each repository.  
